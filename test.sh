@@ -3,7 +3,8 @@
 echo $1
 RESULT=${1:-success}
 touch "$RESULT.xml"
-cp "$RESULT.sample.xml" "$RESULT.xml"
+CURRENT_TIMESTAMP=`date '+%Y%m%d%H%M%S'`
+cp "$RESULT.sample.xml" "$RESULT-$CURRENT_TIMESTAMP.xml"
 
 case $RESULT in
   success)
