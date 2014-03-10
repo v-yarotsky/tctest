@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite errors="0" tests="3" time="0.391" failures="1"
-           name="com.atlassian.bamboo.repository.perforce.PerforceSyncCommandTest3">
+           name="com.atlassian.bamboo.repository.perforce.PerforceSyncCommandTest2">
     <properties>
         <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
         <property value="UnicodeBig" name="sun.io.unicode.encoding"/>
