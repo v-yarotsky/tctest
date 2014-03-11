@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite errors="0" tests="3" time="0.391" failures="1"
-           name="com.atlassian.bamboo.repository.perforce.PerforceSyncCommandTest5">
+           name="com.atlassian.bamboo.repository.perforce.PerforceSyncCommandTest4">
     <properties>
         <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
         <property value="UnicodeBig" name="sun.io.unicode.encoding"/>
@@ -10,7 +10,7 @@
     <testcase time="0" name="testGettersReturnExpectedStuff"/>
     <testcase time="0.164" name="testUsingPerforceWhenNoFilesHaveChanged">
         <failure type="junit.framework.AssertionFailedError"
-                 message="Should not have any errors. [Perforce client error:,     Connect to server failed; ">
+                 message="boom Should not have any errors. [Perforce client error:,     Connect to server failed; ">
             junit.framework.AssertionFailedError: Should not have any errors. [Perforce client error:, Connect to server
             failed; check $P4PORT., TCP connect to keg failed., keg: host unknown.] expected:&lt;0&gt; but was:&lt;4&gt;
             at junit.framework.Assert.fail(Assert.java:47)
